@@ -1,0 +1,77 @@
+/*Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=VT323&display=swap');
+
+body {
+    font-size: 15pt;
+    background-color: var(--jet-desk);
+    color: var(--bright-cyan);
+    --jet-desk: #484041;
+    --half-n-half: #D6D2D2;
+    --ocean-matte: #434371;
+    --bright-cyan: #57E2E5;
+    --not-so-material: #43BCCD;
+}
+
+body > i {
+  display: inline;
+}
+
+.searchbox {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  color: white;
+  padding: 4px;
+  margin: 2px;
+  
+  margin-bottom: 5px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+
+.searchbox:hover {
+  background-color: var(--not-so-material);
+  color: var(--ocean-matte);
+}
+
+.searchbox::placeholder {
+  color: white;
+}
+
+.searchbox:hover::placeholder {
+  color: var(--ocean-matte)
+}
+
+h3 {
+  padding: 0;
+  margin: 0;
+}
+
+.nobullet {
+  list-style: none;
+  margin: 0; 
+  display: inline;
+  padding-top: 0.25em;
+}
+
+li {
+  padding-left: 0.5em;
+}
+
+a {
+  text-decoration: none;
+  color: var(--half-n-half);
+}
+
+.center {
+  text-align: center;
+}
+
+.vt323 {
+  font-family: 'VT323', monospace;
+}
+
+.spacemono {
+  font-family: 'Space Mono', monospace;
+}
