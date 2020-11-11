@@ -23,7 +23,6 @@ body > i {
   color: white;
   padding: 4px;
   margin: 2px;
-  
   margin-bottom: 5px;
   font-weight: bold;
   transition: 0.3s;
@@ -31,16 +30,16 @@ body > i {
 
 
 .searchbox:hover {
-  background-color: var(--not-so-material);
-  color: var(--ocean-matte);
+  color: var(--bright-cyan);
 }
 
 .searchbox::placeholder {
+  transition: 0.3s;
   color: white;
 }
 
 .searchbox:hover::placeholder {
-  color: var(--ocean-matte)
+  color: var(--bright-cyan);
 }
 
 h3 {
@@ -74,4 +73,13 @@ a {
 
 .spacemono {
   font-family: 'Space Mono', monospace;
+}
+
+.searchbtn {
+  background-color: transparent;
+  color: var(--half-n-half);
+  outline: none;
+  border: none;
+  padding: 4px;
+  margin: 2px;
 }

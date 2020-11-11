@@ -6,6 +6,7 @@ document.body.addEventListener("keyup", (e) => {
 function doSearch() {
   var inp = document.getElementById("searchbox").value;
   if (inp == null) {}
+  if (inp == "") {}
   else {
   window.location.href = "https://www.google.com/search?q=" + inp;
   }
